@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/', controller.get_users);
 router.get('/current', controller.get_current_user);
-z//router.post('/find', controller.find_user);
+//router.post('/find', controller.find_user);
 router.get('/:userId', controller.get_user);
 router.post('/', controller.new_user);
 router.delete('/:userId', controller.remove_user);
